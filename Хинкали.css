@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container{
+    width: 1600px;
+    height: 1200px;
+    background: #E9D9BF;
+    margin: 0 auto;
+    padding: 0;
+}
+/* Шапка*/
+.header{
+    padding-top: 45px;
+  
+}
+.logo{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 115px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display:inline-block;
+   
+} 
+/* Меню*/
+    .nav{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        float: right;
+       padding-right: 570px;
+    
+    }
+    li{
+        font-family: 'Open Sans', sans-serif; 
+        font-weight: 400;
+        font-size: 25px;
+        padding-left: 96px;
+        display: inline;
+      
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+
+    /*Хинкали и текст + кнопка*/
+    .hinkal{
+        font-family: 'Pacifico', cursive; 
+        font-weight: 400;
+        width: 521px;
+        height: 252px;
+        font-size: 100px;
+        line-height: 125.68px;
+        color:#353534;
+        opacity: 80%;
+        padding-bottom: 50px;
+        letter-spacing: 0.04em;
+    }
+    .text{
+        font-family:'Open Sans', sans-serif; 
+        font-weight: 600;
+        width: 525px;
+        height: 114px;
+        line-height:56.56px ;
+        color:#353534;
+        opacity: 80%;
+        font-size: 45px;
+        padding-bottom:40px ;
+        letter-spacing: 0.04em;
+    }
+    .btn{
+        text-align: center;
+        font-family:'Open Sans', sans-serif; 
+        font-weight: 400; 
+        font-size: 40px;
+        width: 338px;
+        padding:33px 70px ;
+        color: black;
+        border: 1,5px solid black;
+        border-radius: 50px;
+        background:#E9D9BF ;
+    
+    }
+    .desktop{
+        width: 951px;
+        height: 951px;
+        padding-top: 21px;
+        padding-bottom: 147px;
+    }
+    .offer{
+        padding-bottom: 273px;
+        padding-left: 124px;
+       
+
+      
+    }
+    .wrapper{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .block{
+      position: absolute;
+      margin-top:1060px ;
+      padding-left: 56px;
+    }
+    img{
+        padding-left: 56px;
+        padding-bottom: 100px;
+    }
+
+
+
+   
